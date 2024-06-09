@@ -34,7 +34,7 @@ namespace lab9
 
         
             drawButton = new Button();
-            drawButton.Text = "Построить график";
+            drawButton.Text = "Побудувати графік";
             drawButton.Location = new Point(170, 470);
             drawButton.Click += new EventHandler(DrawButton_Click);
             this.Controls.Add(drawButton);
@@ -50,7 +50,7 @@ namespace lab9
             }
             else
             {
-                MessageBox.Show("Введите корректное значение для R.");
+                MessageBox.Show("Введіть коректне значение для R.");
             }
         }
 
